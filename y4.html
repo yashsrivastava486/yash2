@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .left, .right {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+        .left {
+            background-color: #ffffff;
+        }
+        .right {
+            background-color: #e8e8e8;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #e4e4e4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .projects ul li {
+            background: #d1ecf1;
+        }
+        .profile-img {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .profile-img img {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h2>Contact Information</h2>
+            <p>Contact Number: +918218965589</p>
+            <p>WhatsApp Number: +91 821896 5589</p>
+            <h2>Education</h2>
+            <ul>
+                <li>School 1: Prabhwati Convent School</li>
+                <li>School 2: Sarswati Vidya Mandir</li>
+                <li>College: Teerthankar Mahaveer University</li>
+                <li>B.Tech in Computer Science</li>
+            </ul>
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Coding</li>
+                <li>Reading Books</li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="profile-img">
+                <img src="yash.jpeg" alt="Profile Image">
+                
+            </div>
+            <h2>About Me</h2>
+            <p>I have been passionate about computer science since my high school days. My journey began with learning basic programming and has evolved into a deep interest in software development. Throughout my academic career, I have consistently pursued opportunities to expand my skills and knowledge in various programming languages and technologies. I am enthusiastic about creating innovative solutions and enjoy tackling challenging problems. My goal is to contribute to impactful projects and continue growing as a software developer.</p>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>SQL</li>
+            </ul>
+            <h2>Internship</h2>
+            <ul>
+                <li>Java Internship at AppSquad, Noida</li>
+            </ul>
+            <h2>Projects</h2>
+            <ul class="projects">
+                <li>Tic Tac Toe Game</li>
+                <li>SGPA Calculator</li>
+                <li>Gaming Web</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
